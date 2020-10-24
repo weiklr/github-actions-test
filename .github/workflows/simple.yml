@@ -12,3 +12,8 @@ jobs:
         run: | # run multiple commands with | yaml syntax
           node -v
           npm -v
+      - name: python command
+        run : |
+              import platform
+              print(platform.processor())
+        shell: python

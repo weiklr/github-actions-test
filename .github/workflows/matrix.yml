@@ -7,7 +7,7 @@ jobs:
       # creates 3x3 matrix running each node version on each OS specified
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
-        node-version: [6,8,10]
+        node-version: [6,8,12]
         # includes extra variables for existing configurations
         include:
           - os: ubuntu-latest

@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-      - "feature/**" # matches featur/featA, feature/featB, doesn't match feature/feat/a
+      - "feature/**" # matches  featur/featA, feature/featB, doesn't match feature/feat/a
       - "!feature/featc"
     tags: 
       - v1.*
